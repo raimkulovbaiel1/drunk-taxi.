@@ -1,0 +1,40 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-inter: 'Inter';
+  --font-garamond: 'EB Garamond';
+}  
+
+@media (max-width: 768px) {
+    .mobile-footer {
+      @apply bg-black text-white text-center py-10 px-4;
+    }
+  
+    .footer-logo {
+      @apply w-10 h-10 mx-auto mb-4;
+    }
+  
+    .footer-text {
+      @apply text-base mb-4;
+    }
+  
+    .footer-button {
+      @apply bg-gray-300 text-black py-2 px-3 cursor-pointer rounded-full mb-6;
+    }
+  
+    .footer-links {
+      @apply flex justify-center space-x-6 text-sm;
+    }
+  
+    .footer-links a {
+      @apply hover:underline;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .mobile-footer {
+      @apply hidden;
+    }
+  }
+  
+  

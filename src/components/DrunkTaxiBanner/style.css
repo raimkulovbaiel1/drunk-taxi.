@@ -1,0 +1,40 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-inter: 'Inter';
+  --font-garamond: 'EB Garamond';
+}  
+
+
+.banner-container {
+  @apply relative   overflow-hidden;
+}
+
+.background-image {
+  @apply fixed inset-0 w-full h-full object-cover z-[-1];
+}
+
+.content-overlay {
+  @apply relative z-10 flex flex-col items-center py-[40px]  text-white text-center h-full;
+}
+
+.icon-wrapper {
+  @apply mb-4;
+}
+
+.icon {
+  @apply w-30 h-30 object-contain rounded-full;
+}
+
+
+.text-content {
+  @apply space-y-2;
+}
+
+.banner-title {
+  @apply text-4xl font-bold;
+}
+
+.banner-subtext {
+  @apply text-lg;
+}

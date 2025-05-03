@@ -1,0 +1,55 @@
+import React from 'react';
+import './style.css';
+import img1 from '../../assets/img/Advantages/img1.webp';
+import img2 from '../../assets/img/Advantages/img2.webp';
+import img3 from '../../assets/img/Advantages/img3.webp';
+
+interface AdvantageItem {
+  title: string;
+  description: string;
+  image: string;
+}
+
+const Advantages: React.FC = () => {
+  const advantagesData: AdvantageItem[] = [
+    {
+      title: "Профессиональные водители",
+      description: "Стаж наших водителей 10+ лет.",
+      image: img1
+    },
+    {
+      title: "Безопасность",
+      description: "С нами вы доберетесь домой в целости и сохранности.",
+      image: img2
+    },
+    {
+      title: "Довольные клиенты",
+      description: "Мы всегда стремимся предоставлять качественные услуги и отличное обслуживание клиентов.",
+      image: img3
+    }
+  ];
+
+  return (
+    <section className="advantages" itemScope itemType="http://schema.org/Organization">
+      <h2 className="advantages__title">НАШИ ПРЕИМУЩЕСТВА</h2>
+
+      <div className="advantages__list">
+        {advantagesData.map((advantage, index) => (
+          <React.Fragment key={index}>
+            <div className="advantages__item">
+              <img src={advantage.image} alt={advantage.title} className="advantages__image" />
+              <h3 className="advantages__subtitle" itemProp="description">{advantage.title}</h3>
+              <p className="advantages__text">{advantage.description}</p>
+            </div>
+            
+            {index < advantagesData.length - 1 && (
+              <div className="advantages__separator"></div>
+            )}
+          </React.Fragment>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default Advantages;

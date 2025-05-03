@@ -1,0 +1,58 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-inter: 'Inter';
+  --font-garamond: 'EB Garamond';
+} 
+
+ .contact-buttons {
+    @apply flex flex-col gap-[15px] p-[20px] py-[75px];
+  }
+  
+  .contact-btn {
+    @apply flex items-center justify-center  font-semibold py-4 px-5 rounded-full;
+  }
+  
+  .call {
+    @apply bg-black  ;
+  }
+ 
+  .whatsapp {
+    background-color: #25D366;
+  }
+  
+  .instagram {
+    background-color: #E1306C;
+  }
+  
+  .telegram {
+    background-color: #0088cc;
+  }
+  
+  .arrow {
+    @apply text-xl ;
+  }
+   
+  @keyframes pulse-glow {
+    0% {
+      box-shadow: 0 0 0px rgba(255, 255, 255, 0.4);
+    }
+    50% {
+      box-shadow: 0 0 6px rgba(255, 255, 255, 0.4);
+    }
+    100% {
+      box-shadow:  0 3px rgba(255, 255, 255, 0.4);
+    }
+  }
+  
+  .shiny-button {
+    animation: pulse-glow 1.5s infinite;
+  }
+  
+  /* Убираем кнопки на экранах md и выше */
+  @media (min-width: 768px) {
+    .contact-buttons {
+      display: none;
+    }
+  }
+  
