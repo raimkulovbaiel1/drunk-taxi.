@@ -10,7 +10,8 @@ const MobileFooter: React.FC = () => {
         className="footer-logo"
       />
       <p className="footer-text">
-        This site was made on Tilda — a website builder that helps to create a website without any code
+        This site was made on Tilda — a website builder that helps to create a
+        website without any code
       </p>
       <button className="footer-button">Create a website</button>
       <div className="footer-links">

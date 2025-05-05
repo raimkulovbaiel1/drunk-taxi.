@@ -4,7 +4,7 @@ import "./style.css";
 const DrunkTaxiBanner: FC = () => {
   return (
     <div className="banner-container">
-      {/* Фоновое изображение */}
+     
       <img
         src="https://static.tildacdn.info/tild6165-3963-4265-b732-626539323032/zyro-image.png"
         alt="Логотип компании"
@@ -12,7 +12,7 @@ const DrunkTaxiBanner: FC = () => {
         itemProp="logo"
       />
 
-      {/* Контент поверх фона */}
+      
       <div className="content-overlay">
         <div className="icon-wrapper">
           <img

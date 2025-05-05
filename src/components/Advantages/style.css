@@ -1,12 +1,10 @@
-
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
-  --font-inter: 'Inter';
-  --font-garamond: 'EB Garamond';
-} 
+  --font-inter: "Inter";
+  --font-garamond: "EB Garamond";
+}
 @layer components {
-  /* Мобильные стили (до 768px) */
   .advantages {
     @apply px-5 py-5 text-center;
   }
@@ -35,10 +33,9 @@
     @apply h-px bg-[#ddd] my-5 mx-auto w-[80%];
   }
 
-  /* Скрыть на экранах больше 768px */
   @media (min-width: 769px) {
     .advantages {
-      @apply block ;
+      @apply block;
     }
   }
 }
