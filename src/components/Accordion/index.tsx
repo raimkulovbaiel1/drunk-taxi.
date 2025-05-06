@@ -166,7 +166,7 @@ const Accordion: React.FC = () => {
       height="24px"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
+     // xmlns:xlink="http://www.w3.org/1999/xlink"
     >
       <g
         stroke="none"
