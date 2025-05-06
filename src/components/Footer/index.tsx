@@ -7,7 +7,7 @@ const MobileFooter: React.FC = () => {
     <div className="mobile-footer">
       <img
         src={footerLogo}
-        alt="Tilda Logo"
+        alt=" Logo"
         className="footer-logo"
       />
       <p className="footer-text">
