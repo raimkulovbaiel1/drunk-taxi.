@@ -1,10 +1,10 @@
 import { FC } from "react";
-import "./style.css";
+import "./style.css"; 
+import taxiIcon from "../../assets/img/Taxi/noroot.jpg.webp";
 
 const DrunkTaxiBanner: FC = () => {
   return (
     <div className="banner-container">
-     
       <img
         src="https://static.tildacdn.info/tild6165-3963-4265-b732-626539323032/zyro-image.png"
         alt="Логотип компании"
@@ -12,11 +12,10 @@ const DrunkTaxiBanner: FC = () => {
         itemProp="logo"
       />
 
-      
       <div className="content-overlay">
         <div className="icon-wrapper">
-          <img
-            src="src/assets/img/Taxi/noroot.jpg.webp"
+        <img
+            src={taxiIcon} 
             alt="Такси Иконка"
             className="icon"
           />
