@@ -1,11 +1,12 @@
 import React from "react";
-import "./style.css";
+import "./style.css"; 
+import footerLogo from "../../assets/img/footer/img1.png";
 
 const MobileFooter: React.FC = () => {
   return (
     <div className="mobile-footer">
       <img
-        src="src/assets/img/footer/img1.png"
+        src={footerLogo}
         alt="Tilda Logo"
         className="footer-logo"
       />
