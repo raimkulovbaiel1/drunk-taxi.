@@ -3,7 +3,7 @@ import "./style.css";
 
 type AccordionItem = {
   title: string;
-  content: string;
+  content: React.ReactNode;
 };
 
 const items: AccordionItem[] = [
