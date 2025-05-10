@@ -5,20 +5,13 @@ const MobileFooter: React.FC = () => {
   return (
     <div className="mobile-footer">
       <img
-        src="src/assets/img/footer/img1.png"
+        src="https://chatgpt.com/backend-api/public_content/enc/eyJpZCI6Im1fNjgxZjhjOGJlNDQ4ODE5MTg2NTM4YTdkMDFkNmQzNmM6ZmlsZV8wMDAwMDAwMDQ4MzQ2MjBhODIyMGJhMjA0MTJiNjg5MSIsInRzIjoiNDg1MjQ5IiwicCI6InB5aSIsInNpZyI6IjBkNDAzNjY0YmYzZmQzMmE5MWUxMjExM2M5MjQ2NWEzZTM0YTI5NWNhMGU1Mjg2ZTQzMmQ4ZDAxMWRiNTEwZDUiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsfQ=="
         alt="Tilda Logo"
         className="footer-logo"
       />
       <p className="footer-text">
-        This site was made on Tilda — a website builder that helps to create a
-        website without any code
+       Счатливого пути!
       </p>
-      <button className="footer-button">Create a website</button>
-      <div className="footer-links">
-        <a href="#">How to remove this block?</a>
-        <a href="#">About platform</a>
-        <a href="#">Submit a complaint</a>
-      </div>
     </div>
   );
 };

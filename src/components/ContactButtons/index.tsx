@@ -4,7 +4,7 @@ import "./style.css";
 const ContactButtons: FC = () => {
   return (
     <div className="mobile-buttons-container">
-      <a href="tel:+996770123456" className="btn black">
+      <a href="tel:+996999040002" className="btn black">
         <span className="icon">
           <svg
             className="t-sociallinks__svg"
@@ -42,7 +42,7 @@ const ContactButtons: FC = () => {
       </a>
 
       <a
-        href="https://wa.me/996770123456"
+        href="https://wa.me/996999040002"
         className="btn green"
         target="_blank"
         rel="noopener noreferrer"
@@ -78,86 +78,7 @@ const ContactButtons: FC = () => {
           </svg>
         </span>
       </a>
-
-      <a
-        href="https://instagram.com"
-        className="btn pink"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span className="icon">
-          <svg
-            width="28"
-            height="28"
-            viewBox="0 0 512 512"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M349.33 69.33H162.67C112.59 69.33 69.33 112.59 69.33 162.67v186.66C69.33 399.41 112.59 442.67 162.67 442.67h186.66c50.08 0 93.34-43.26 93.34-93.34V162.67c0-50.08-43.26-93.34-93.34-93.34zM432 349.33c0 45.65-37.02 82.67-82.67 82.67H162.67C117.02 432 80 394.98 80 349.33V162.67C80 117.02 117.02 80 162.67 80h186.66C394.98 80 432 117.02 432 162.67v186.66z"
-              fill="#fff"
-            />
-            <path
-              d="M256 165.33A90.67 90.67 0 10346.67 256 90.77 90.77 0 00256 165.33zm0 149.34A58.67 58.67 0 11314.67 256 58.76 58.76 0 01256 314.67zM370.67 144a21.33 21.33 0 1121.33-21.33 21.36 21.36 0 01-21.33 21.33z"
-              fill="#fff"
-            />
-          </svg>
-        </span>
-        Instagram
-        <span className="arrow">
-          <svg
-            role="presentation"
-            viewBox="0 0 10 18"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-[10px] h-[18px] text-white"
-          >
-            <path
-              d="M1.00071 1L8.27344 9L1.00071 17"
-              stroke="currentColor"
-              strokeWidth="2"
-            />
-          </svg>
-        </span>
-      </a>
-      <a
-        href="https://t.me/username"
-        className="btn blue"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span className="icon">
-          <svg
-            width="28"
-            height="28"
-            viewBox="0 0 240 240"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <circle cx="120" cy="120" r="120" fill="#0088cc" />
-            <path
-              d="M51 120.4l40.6 15.2 16.2 49.6c2.1 5.8 9.3 7.5 13.7 3.2l23.7-23.2 39.3 28.9c4.5 3.3 10.9 0.9 12.2-4.6l27.7-119.5c1.3-5.6-4.2-10.4-9.4-8.3L51 120.4z"
-              fill="#fff"
-            />
-          </svg>
-        </span>
-        Telegram
-        <span className="arrow">
-          <svg
-            role="presentation"
-            viewBox="0 0 10 18"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-[10px] h-[18px] text-white"
-          >
-            <path
-              d="M1.00071 1L8.27344 9L1.00071 17"
-              stroke="currentColor"
-              strokeWidth="2"
-            />
-          </svg>
-        </span>
-      </a>
+      
     </div>
   );
 };

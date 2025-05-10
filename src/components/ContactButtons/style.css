@@ -12,7 +12,7 @@
 }
 
 .mobile-buttons-container {
-  @apply flex flex-col gap-2 items-center p-4;
+  @apply flex flex-col gap-2 items-center p-10;
 }
 
 .btn {
@@ -28,17 +28,10 @@
 }
 
 .btn.black {
-  @apply bg-black;
+  @apply bg-[#4B0082];
 }
 
 .btn.green {
   background-color: #25d366;  
 }
 
-.btn.pink {
-  background-color: #e1306c; 
-}
-
-.btn.blue {
-  background-color: #0088cc; 
-}
