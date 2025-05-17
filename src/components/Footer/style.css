@@ -18,17 +18,8 @@
   @apply text-gray-200 hover:text-white font-bold text-[25px] mb-4;
   }
 
-  .footer-button {
-    @apply bg-gray-300   text-black py-2 px-3 cursor-pointer rounded-full mb-6;
-  }
 
-  .footer-links {
-    @apply flex justify-center space-x-6 text-sm;
-  }
 
-  .footer-links a {
-    @apply text-gray-400 hover:text-white transition-colors duration-200;
-  }
 }
 
 @media (min-width: 769px) {

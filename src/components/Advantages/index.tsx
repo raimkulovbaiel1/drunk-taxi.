@@ -59,7 +59,7 @@ const Advantages: React.FC = () => {
               </h3>
               <p className="advantages__text">{advantage.description}</p>
             </div>
-
+              
             {index < advantagesData.length - 1 && (
               <div className="advantages__separator"></div>
             )}
