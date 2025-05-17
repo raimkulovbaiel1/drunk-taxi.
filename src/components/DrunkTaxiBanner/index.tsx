@@ -1,11 +1,11 @@
 import { FC } from "react";
-import "./style.css";
+import "./style.css"; 
 
 const DrunkTaxiBanner: FC = () => {
   return (
     <div className="banner-container">
       <img
-        src="src/assets/img/Taxi/bg.jpg"
+        src="noroot.bg.jpg"
         alt="Логотип компании"
         className="background-image"
         itemProp="logo"
@@ -14,7 +14,7 @@ const DrunkTaxiBanner: FC = () => {
       <div className="content-overlay">
         <div className="icon-wrapper">
           <img
-            src="https://chatgpt.com/backend-api/public_content/enc/eyJpZCI6Im1fNjgxZjhjOGJlNDQ4ODE5MTg2NTM4YTdkMDFkNmQzNmM6ZmlsZV8wMDAwMDAwMDQ4MzQ2MjBhODIyMGJhMjA0MTJiNjg5MSIsInRzIjoiNDg1MjQ5IiwicCI6InB5aSIsInNpZyI6IjBkNDAzNjY0YmYzZmQzMmE5MWUxMjExM2M5MjQ2NWEzZTM0YTI5NWNhMGU1Mjg2ZTQzMmQ4ZDAxMWRiNTEwZDUiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsfQ=="
+            src="src/assets/img/footer/footer logo.png"
             alt="Такси Иконка"
             className="icon"
           />
