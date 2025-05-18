@@ -5,7 +5,7 @@ import "./style.css";
 const MobileFooter: React.FC = () => {
   return (
     <div className="mobile-footer">
-      <img src="footerLogo" alt="footerLogo" className="footer-logo" />
+      <img src="src/assets/img/footer/footer-logo.webp" alt="footerLogo" className="footer-logo" />
       <p className="footer-text">Счатливого пути!</p>
     </div>
   );

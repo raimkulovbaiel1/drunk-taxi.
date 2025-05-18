@@ -5,7 +5,7 @@ const DrunkTaxiBanner: FC = () => {
   return (
     <div className="banner-container">
       <img
-        src="src/assets/img/Taxi/bg.jpg"
+        src="src/assets/img/Taxi/bg-3.jpg"
         alt="Логотип компании"
         className="background-image"
         itemProp="logo"
