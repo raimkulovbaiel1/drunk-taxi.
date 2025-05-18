@@ -5,7 +5,7 @@ const DrunkTaxiBanner: FC = () => {
   return (
     <div className="banner-container">
       <img
-        src="noroot.bg.jpg"
+        src="src/assets/img/Taxi/bg.jpg"
         alt="Логотип компании"
         className="background-image"
         itemProp="logo"
@@ -14,8 +14,8 @@ const DrunkTaxiBanner: FC = () => {
       <div className="content-overlay">
         <div className="icon-wrapper">
           <img
-            src="src/assets/img/footer/footer logo.png"
-            alt="Такси Иконка"
+            src="src/assets/img/Taxi/logo.jpg"
+            alt="Такси Иконка"  
             className="icon"
           />
         </div>

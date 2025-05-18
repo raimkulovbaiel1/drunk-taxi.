@@ -17,9 +17,6 @@
   .footer-text {
   @apply text-gray-200 hover:text-white font-bold text-[25px] mb-4;
   }
-
-
-
 }
 
 @media (min-width: 769px) {
